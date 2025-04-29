@@ -18,8 +18,8 @@ namespace ComputerVisionQuickstart
         // static string endpoint = Environment.GetEnvironmentVariable("VISION_ENDPOINT");
 
         
-        string endpoint = "<YourAzureAIServiceEndPoint>";
-        string key = "<YourAzureAIServiceKey>";
+        static string endpoint = "<YourAzureAIServiceEndPoint>";
+        static string key = "<YourAzureAIServiceKey>";
     
         //private const string READ_TEXT_URL_IMAGE = "https://cursivehandwriting.co.in/wp-content/uploads/2023/11/f9b3033e7a38c727af188a4604e0c0c4-e1700722488449.jpg";
         private const string READ_TEXT_URL_IMAGE = "https://learn.microsoft.com/azure/ai-services/computer-vision/media/quickstarts/presentation.png";
